@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+} 
+.pic1{
+  display: inline-block;
+  padding: 50px;
+  padding-left: 85px;
+}
+.pic1 img{   
+    width: 120px;
+    height: 31px;
+    margin-top: -17px;
+    margin-left: -38px;
+}
+.desk img{
+  display: none;
+}
+.pic2 img{
+    width: 464px;
+    height: 229px;
+    margin-top: -33px;
+}
+.align{
+  color:rgb(207, 175, 152);
+  font-size: x-large;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-right: 70px;
+  margin-left: 75px;
+  font-weight:100;
+  margin-top: 52px;
+}
+.black{
+  font-size: xx-large;
+  margin-top: -40px;
+}
+.soon{
+    font-size: xx-large;
+    margin-left: 105px;
+}
+.style{
+  color:rgb(207, 175, 152);
+  padding-left: 50px;
+  margin-top: 30px;
+  font-family:cursive;
+  font-size: large;
+}
+.st{
+    font-family: cursive;
+    font-size:medium;
+}
+.email input{
+  width: 363px;
+  height: 47px;
+  border-radius: 30px;
+  margin-left: 43px;
+  border-color: pink;
+  border:1.5px solid rgb(243, 208, 213);
+  background-color: rgb(248, 239, 241);
+}
+::placeholder{
+    color: rgb(255, 208, 212);
+}
+button {
+    height: 45px;
+    width: 60px;
+    border-radius: 45px;
+    color:white;
+    background-color:rgb(255, 179, 186);
+    border-color: pink;
+    border: 1px;
+    position: relative;
+    left: 346px;
+    top: -46px;
+}
+.pic3 img{
+  width: 73px;
+    height: 45px;
+    position: relative;
+    left: 391px;
+    border-radius: 112px;
+    top: -1px;
+}
+body{
+    background-color:rgb(248, 239, 241);
+}
+@media (min-width:1024px){
+ .pic2{ 
+  display: none;
+ } 
+ .desk img{
+   display: inline;
+      float: right;
+      height: 100vh;
+      width: 45%;
+ }
+.pic1{
+  display: inline-block;
+  padding: 50px;
+  padding-left: 85px;
+}
+.pic1 img{
+  margin-left: 1px;
+}
+.align{
+  color:rgb(207, 175, 152);
+  font-size: xx-large;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-right: 70px;
+  margin-left: 25px;
+  font-weight:100;
+}
+.black{
+  font-size: xx-large;
+  margin-top: -40px;
+}
+.soon{
+  margin-left: 64px;
+}
+.style{
+  padding-left: 85px;
+  margin-top: 30px;
+  font-family:cursive;
+}
+.email{
+  margin-left: 35px;
+}
+button{
+  margin-left: 35px;
+}
+.background{
+  background-image:url("bac.svg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  top: 0%;
+}
+body{
+  min-width: 75%;
+}
+}
